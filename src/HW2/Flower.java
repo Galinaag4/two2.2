@@ -1,3 +1,5 @@
+package HW2;
+
 public class Flower {
     String name;
     private String flowerColor;
