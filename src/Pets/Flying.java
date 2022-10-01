@@ -42,7 +42,8 @@ public class Flying extends Birds{
 
     @Override
     public String toString() {
-        return "Flying{" +
+        return super.toString()+
+                "Flying{" +
                 "typeOfMovement='" + typeOfMovement + '\'' +
                 '}';
     }

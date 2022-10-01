@@ -60,6 +60,20 @@ public class Main {
         Flying seagull = new Flying("Чайка ",2,"берег ","летает");
         Flying albatross = new Flying("Альбатрос ",1,"берег ","летает");
         Flying falcon = new Flying("Сокол ",10,"горы ","летает");
+        System.out.println(gazelle.toString());
+        System.out.println(giraffe.toString());
+        System.out.println(horse.toString());
+        System.out.println(hyena.toString());
+        System.out.println(tiger.toString());
+        System.out.println(bear.toString());
+        System.out.println(frog.toString());
+        System.out.println(snake.toString());
+        System.out.println(pavlin.toString());
+        System.out.println(penguin.toString());
+        System.out.println(dodo.toString());
+        System.out.println(seagull.toString());
+        System.out.println(albatross.toString());
+        System.out.println(falcon.toString());
 
 
 

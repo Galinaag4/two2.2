@@ -42,7 +42,8 @@ public class Flightless extends Birds{
 
     @Override
     public String toString() {
-        return "Flightless{" +
+        return  super.toString()+
+                "Flightless{" +
                 "typeOfMovement='" + typeOfMovement + '\'' +
                 '}';
     }

@@ -45,7 +45,8 @@ public class Herbivores extends Mammals{
 
     @Override
     public String toString() {
-        return "Herbivores{" +
+        return super.toString()+
+                "Herbivores{" +
                 "typeOfFood='" + typeOfFood + '\'' +
                 '}';
     }

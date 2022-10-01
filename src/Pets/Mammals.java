@@ -55,7 +55,8 @@ public class Mammals extends Pets{
 
     @Override
     public String toString() {
-        return "Mammals{" +
+        return super.toString() +
+                "Mammals{" +
                 "area='" + area + '\'' +
                 ", speed=" + speed +
                 '}';
